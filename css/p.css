@@ -1,0 +1,21 @@
+#instagram {
+    position: absolute;
+    top: 670px;
+    right: 850px;
+    width: 50px;
+    height: 50px;
+}
+#youtube {
+    position: absolute;
+    top: 665px;
+    right: 750px;
+    width: 60px;
+    height: 60px;
+}
+#discord {
+    position: absolute;
+    top: 670px;
+    right: 664px;
+    width: 50px;
+    height: 50px;
+}
