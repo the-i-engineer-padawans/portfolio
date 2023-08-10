@@ -2,6 +2,13 @@ p {
     text-align: center;
     color: floralwhite;
     font-size: 26px;
-    margin: 130px 660px 120px 80px;
+    margin: 80px 660px 120px 80px;
     word-spacing: 9px;
+}
+#mischa-bild {
+    position: absolute;
+    top: 160px;
+    right: 80px;
+    width: 500px;
+    height: 440px;
 }
