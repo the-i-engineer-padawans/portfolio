@@ -1,0 +1,69 @@
+Body {
+    background-color: #12172b;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.skills-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30%;
+}
+
+.skill {
+    position: relative;
+    margin-top: 40px;
+}
+
+.skill-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.6);
+    height: 40px;
+    z-index: -1;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 150px;
+}
+
+.skill-fill {
+    background: limegreen;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+.skill-percent {
+    font-size: 30px;
+}
+
+.english {
+    animation: english 0s;
+    width: 70%;
+}
+
+.geschichte {
+    animation: geschichte 0s;
+    width: 65%;
+}
+
+.mathematik {
+    animation: mathematik 0s;
+    width: 60%;
+}
