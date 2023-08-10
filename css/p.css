@@ -23,8 +23,11 @@
 }
 
 .container {
-    display: inline-block
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 620px;
 }
+
 .text {
     font-size: 5em;
     letter-spacing: 10px;
@@ -33,5 +36,18 @@
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
+    animation: typing 2s steps(7),
+    cursor .4s step-end infinite alternate;
+}
 
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
 }
