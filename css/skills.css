@@ -102,22 +102,22 @@ nav{
     }
 }
 
-.skill_bar .bar .sass {
-    width: 80%;
-    animation: sass 2s;
+.skill_bar .bar .naturtechnik {
+    width: 75%;
+    animation: naturtechnik 2s;
 }
 
-@keyframes sass {
+@keyframes naturtechnik {
     0% {
         width: 0%;
     }
     100% {
-        width: 80%;
+        width: 75%;
     }
 }
 
 .skill_bar .bar .js {
-    width: 80%;
+    width: 85%;
     animation: css 2s;
 }
 
@@ -126,21 +126,21 @@ nav{
         width: 0%;
     }
     100% {
-        width: 80%;
+        width: 85%;
     }
 }
 
-.skill_bar .bar .react {
-    width: 75%;
-    animation: react 2s;
+.skill_bar .bar .geo {
+    width: 85%;
+    animation: geo 2s;
 }
 
-@keyframes react {
+@keyframes geo {
     0% {
         width: 0%;
     }
     100% {
-        width: 75%;
+        width: 85%;
     }
 }
 
@@ -158,30 +158,30 @@ nav{
     }
 }
 
-.skill_bar .bar .express {
-    width: 65%;
-    animation: express 2s;
+.skill_bar .bar .deutsch {
+    width: 70%;
+    animation: deutsch 2s;
 }
 
-@keyframes express {
+@keyframes deutsch {
     0% {
         width: 0%;
     }
     100% {
-        width: 65%;
+        width: 70%;
     }
 }
 
-.skill_bar .bar .mongo {
-    width: 60%;
-    animation: mongo 2s;
+.skill_bar .bar .franz {
+    width: 30%;
+    animation: franz 2s;
 }
 
-@keyframes mongo {
+@keyframes franz {
     0% {
         width: 0%;
     }
     100% {
-        width: 60%;
+        width: 30%;
     }
 }
