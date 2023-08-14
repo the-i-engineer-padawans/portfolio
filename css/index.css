@@ -1,3 +1,9 @@
+body {
+    background-image: url("../image/Mountains-dak.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #instagram {
     position: absolute;
     top: 670px;
