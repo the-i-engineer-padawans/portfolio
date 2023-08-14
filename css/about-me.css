@@ -28,3 +28,9 @@ body {
     left: 75%;
     transform: translate(-50%, -50%);
 }
+@media (max-width: 200px){
+    p{
+        font-size: 12px;
+    }
+
+}
