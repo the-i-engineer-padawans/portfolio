@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website! This repository showcases my Portfolio Website which I did in my first week of work.
 
-## Portfolio
+## Home
 
 The Portfolio page is akin to a homepage where you have a good overview of the site itself.
 
