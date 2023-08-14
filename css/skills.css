@@ -81,7 +81,7 @@ nav{
 
 @keyframes html {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 90%;
@@ -95,7 +95,7 @@ nav{
 
 @keyframes css {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 85%;
@@ -109,7 +109,7 @@ nav{
 
 @keyframes naturtechnik {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 75%;
@@ -123,7 +123,7 @@ nav{
 
 @keyframes js {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 85%;
@@ -137,7 +137,7 @@ nav{
 
 @keyframes geo {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 85%;
@@ -151,7 +151,7 @@ nav{
 
 @keyframes node {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 70%;
@@ -165,7 +165,7 @@ nav{
 
 @keyframes deutsch {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 70%;
@@ -179,7 +179,7 @@ nav{
 
 @keyframes franz {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 30%;
