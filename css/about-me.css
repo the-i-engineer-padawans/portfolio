@@ -3,19 +3,29 @@ body {
     background-size: cover;
 }
 
-p {
+#text-about-me{
     color: white;
-    font-family: "Poppins", sans-serif;
+
     text-align: center;
-    font-size: 26px;
-    margin: 80px 660px 120px 80px;
     word-spacing: 8px;
+    max-width: 700px;
+    padding: 20px;
+    width: 50%;
+    margin-top: 80px;
+    position: relative;
+    margin-right: 400px;
+}
+.responsive-paragraph{
+    font-size: 20px;
+    line-height: 1.6;
 }
 
-#mischa-bild {
+.responsive-image {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
     position: absolute;
-    top: 160px;
-    right: 80px;
-    width: 500px;
-    height: 440px;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, -50%);
 }
