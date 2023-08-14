@@ -18,4 +18,4 @@ In the Portfolio, there are some school skills being displayed
 
 If you have some suggestions feel free to email me!
 
-- Email: [tiebarm@tie.com](mailto:tiebarm@tie.ch)
+- Email: [tiebarm@tie.ch](mailto:tiebarm@tie.ch)
