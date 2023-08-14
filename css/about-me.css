@@ -1,3 +1,8 @@
+body {
+    background-image: url("../image/green-background.png");
+    background-size: cover;
+}
+
 p {
     color: white;
     font-family: "Poppins", sans-serif;
