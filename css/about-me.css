@@ -5,13 +5,12 @@ body {
 
 #text-about-me{
     color: white;
-
     text-align: center;
     word-spacing: 8px;
     max-width: 700px;
     padding: 20px;
     width: 50%;
-    margin-top: 80px;
+    margin-top: 110px;
     position: relative;
     margin-right: 400px;
 }
