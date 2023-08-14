@@ -6,24 +6,24 @@ body {
 
 #instagram {
     position: absolute;
-    top: 670px;
-    right: 840px;
+    top: 660px;
+    right: 845px;
     width: 50px;
     height: 50px;
 }
 
 #youtube {
     position: absolute;
-    top: 665px;
-    right: 740px;
+    top: 655px;
+    right: 745px;
     width: 60px;
     height: 60px;
 }
 
 #discord {
     position: absolute;
-    top: 670px;
-    right: 650px;
+    top: 660px;
+    right: 655px;
     width: 50px;
     height: 50px;
 }
