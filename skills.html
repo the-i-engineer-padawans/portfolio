@@ -10,14 +10,22 @@
     <link rel="stylesheet" href="css/skills.css">
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about-me.html">About me</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+<header>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo-nav'><a href='#'><img src="image/minecraft_logo_icon_168974.ico"/></a></li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+</header>
 
 <div class="skills_section">
     <div class="skills_head">
