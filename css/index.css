@@ -13,26 +13,26 @@ body {
 
 #instagram {
     position: absolute;
-    top: 660px;
-    right: 845px;
-    width: 50px;
-    height: 50px;
+    top: 85%;
+    right: 58%;
+    width: 4vw;
+    height: 4vw;
 }
 
 #youtube {
     position: absolute;
-    top: 655px;
-    right: 745px;
-    width: 60px;
-    height: 60px;
+    top: 84.5%;
+    right: 50%;
+    width: 5vw;
+    height: 5vw;
 }
 
 #discord {
     position: absolute;
-    top: 660px;
-    right: 655px;
-    width: 50px;
-    height: 50px;
+    top: 85%;
+    right: 43%;
+    width: 4vw;
+    height: 4vw;
 }
 
 .container {
