@@ -2,6 +2,13 @@ body {
     background-image: url("../image/Mountains-dak.jpg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: auto;
+    }
 }
 
 #instagram {
