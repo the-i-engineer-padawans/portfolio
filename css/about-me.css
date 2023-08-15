@@ -21,17 +21,18 @@ body {
 }
 
 .responsive-image {
-    width: 50%;
-    max-width: 400px;
+    width: 40%;
+    max-width: 100%;
     height: auto;
     position: absolute;
     top: 45%;
     left: 75%;
     transform: translate(-50%, -50%);
+    margin: 0;
 }
 
-@media (max-width: 200px) {
-    p {
+@media (max-width: 1000px) {
+    .responsive-paragraph {
         font-size: 12px;
     }
 
