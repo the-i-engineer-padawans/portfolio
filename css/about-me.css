@@ -1,39 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Thin", sans-serif;
+}
+
 body {
-    background-image: url("../image/green-background.png");
+    background-color: #ced2cc;
     background-size: cover;
 }
 
-#text-about-me {
-    color: white;
+.heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    word-spacing: 8px;
-    max-width: 700px;
-    padding: 20px;
-    width: 50%;
-    margin-top: 110px;
+    margin: 20px auto;
+}
+
+.heading h1 {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
     position: relative;
-    margin-right: 400px;
 }
 
-.responsive-paragraph {
-    font-size: 20px;
-    line-height: 1.6;
+.heading h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4caf50;
 }
 
-.responsive-image {
-    width: 40%;
+.container-about-me {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img {
     max-width: 100%;
     height: auto;
-    position: absolute;
-    top: 45%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    display: block;
+    transition: 0.5s ease;
 }
 
-@media (max-width: 1000px) {
-    .responsive-paragraph {
-        font-size: 12px;
+.about-image:hover img {
+    transform: scale(1.2);
+}
+
+.about-content {
+    flex: 1;
+
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #677;
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        padding: 0 20px;
+    }
+
+    .heading h1 {
+        font-size: 36px;
+    }
+
+    .heading p {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    .container-about-me {
+        padding: 0;
+    }
+
+    .about {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .about-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-content p{
+        padding: 0;
+        font-size: 16px;
     }
 
 }
