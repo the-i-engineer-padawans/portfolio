@@ -66,8 +66,7 @@ body {
         height: 50px;
     }
     .container{
-        margin: 30%;
-        margin-top: 10%;
+        margin: 10% 30% 30%;
     }
 }
 
