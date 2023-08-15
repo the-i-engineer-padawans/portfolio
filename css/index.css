@@ -5,7 +5,7 @@ body {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     body {
         background-size: auto;
     }
@@ -37,15 +37,15 @@ body {
 
 .container {
     display: inline-block;
-    margin-top: 180px;
-    margin-left: 620px;
+    margin-top: 15%;
+    margin-left: 40%;
 }
 
 .text {
-    font-size: 5em;
-    letter-spacing: 10px;
+    font-size: 4vw;
+    letter-spacing: 0.5vw;
     font-family: monospace;
-    border-right: 5px solid;
+    border-right: 2px solid;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
