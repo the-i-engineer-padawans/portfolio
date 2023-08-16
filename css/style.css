@@ -87,8 +87,9 @@ body {
 }
 
 .close-menu {
-    top: 44px;
+    top: 2%;
     right: 20px;
+
 }
 
 #check {
@@ -111,13 +112,14 @@ body {
     }
 
     .menu li {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .menu li a {
         padding: 0;
         color: black;
         font-weight: 900;
+        font-size: 12px;
     }
 
     .open-menu, .close-menu {
