@@ -14,18 +14,33 @@ nav {
     height: 80vh;
     padding: 0 13%;
     background-color: rgba(255, 255, 255, 0.86);
-    display: flex;
+    display: flex-start;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
+.skills_section2 {
+    margin-top: -25%;
+    height: 15vh;
+}
+@media screen and(max-width: 500px){
+    .skills_section2{
+        height: 100px;
+    }
+    .skill_section3{
+        height: 100px;
+    }
+
+}
+
 .skills_head {
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     display: grid;
     place-items: center;
     text-align: center;
+    margin-top: 2%;
 }
 
 .skills_head h2 {
@@ -154,34 +169,6 @@ nav {
     }
     100% {
         width: 70%;
-    }
-}
-
-.skill_bar .bar .deutsch {
-    width: 70%;
-    animation: deutsch 2s;
-}
-
-@keyframes deutsch {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 70%;
-    }
-}
-
-.skill_bar .bar .franz {
-    width: 30%;
-    animation: franz 2s;
-}
-
-@keyframes franz {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 30%;
     }
 }
 
