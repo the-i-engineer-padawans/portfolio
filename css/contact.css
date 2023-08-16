@@ -10,6 +10,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    min-width: 300px;
 }
 
 form {
@@ -47,4 +48,23 @@ form {
     padding: 0;
     color: white;
     font-weight: 900;
+}
+
+.title-contact {
+    font-size: 8px;
+    margin-top: 1%;
+    margin-left: 27%;
+    height: auto;
+}
+
+@media screen and (min-width: 2024px) {
+    .title-contact {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-height: 800px) {
+    .title-contact {
+        margin-top: 10%;
+    }
 }
