@@ -11,25 +11,24 @@ nav {
 
 .skills_section {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     padding: 0 13%;
     background-color: rgba(255, 255, 255, 0.86);
     display: flex-start;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: -8%;
 }
 
 .skills_section2 {
-    margin-top: -25%;
+    margin-top: -10vh;
     height: 15vh;
 }
-@media screen and(max-width: 500px){
+
+@media screen and(max-width: 500px) {
     .skills_section2{
-        height: 100px;
-    }
-    .skill_section3{
-        height: 100px;
+        margin-top: -20vh;
     }
 
 }
@@ -89,12 +88,12 @@ nav {
     border-radius: 25px;
 }
 
-.skill_bar .bar .html {
+.skill_bar .bar .sport {
     width: 90%;
-    animation: html 2s;
+    animation: sport 2s;
 }
 
-@keyframes html {
+@keyframes sport {
     0% {
         width: 0;
     }
@@ -103,12 +102,12 @@ nav {
     }
 }
 
-.skill_bar .bar .css {
+.skill_bar .bar .geschichte {
     width: 85%;
-    animation: css 2s;
+    animation: geschichte 2s;
 }
 
-@keyframes css {
+@keyframes geschichte {
     0% {
         width: 0;
     }
@@ -117,26 +116,26 @@ nav {
     }
 }
 
-.skill_bar .bar .naturtechnik {
-    width: 75%;
-    animation: naturtechnik 2s;
+.skill_bar .bar .französisch {
+    width: 30%;
+    animation: französisch 2s;
 }
 
-@keyframes naturtechnik {
+@keyframes französisch {
     0% {
         width: 0;
     }
     100% {
-        width: 75%;
+        width: 30%;
     }
 }
 
-.skill_bar .bar .js {
+.skill_bar .bar .english {
     width: 85%;
-    animation: css 2s;
+    animation: english 2s;
 }
 
-@keyframes js {
+@keyframes english {
     0% {
         width: 0;
     }
@@ -146,7 +145,7 @@ nav {
 }
 
 .skill_bar .bar .geo {
-    width: 85%;
+    width: 75%;
     animation: geo 2s;
 }
 
@@ -155,7 +154,7 @@ nav {
         width: 0;
     }
     100% {
-        width: 85%;
+        width: 75%;
     }
 }
 
@@ -177,3 +176,32 @@ nav {
     padding: 0;
     color: white;
 }
+
+.skill_bar .bar .gaming {
+    width: 50%;
+    animation: gaming 2s;
+}
+
+@keyframes gaming {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.skill_bar .bar .gym {
+    width: 50%;
+    animation: gym 2s;
+}
+
+@keyframes gym {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
