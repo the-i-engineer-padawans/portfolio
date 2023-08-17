@@ -1,121 +1,206 @@
+/* Die folgenden CSS-Regeln legen das Box-Modell für alle Elemente fest */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
-p {
-    font-size: 26px;
+/* Stilregeln für Links in einer Liste im Menü */
+.menu li a {
+    color: black;
 }
 
+/* Stilregeln für den Hintergrund des Body */
 body {
-    background-color: #ced2cc;
-    background-size: cover;
+    background-color: #ded17e;
 }
 
-.heading {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+/* Container mit maximaler Breite und zentrierter Ausrichtung */
+.wrap {
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Innenabstand von 4% für Elemente mit der Klasse 'padding' */
+.padding {
+    padding: 4%;
+}
+
+/* Stilregeln für ein Rasterlayout der Einführungsdetails */
+.intro-details {
+    display: grid;
+    justify-content: space-evenly;
     text-align: center;
-    margin: 10px auto;
 }
 
-.heading h1 {
-    font-size: 50px;
-    color: #000;
-    margin-bottom: 25px;
+/* Stilregeln für den Textabsatz innerhalb der Einführungsdetails */
+.intro-details > .intro-paragraph {
+    width: calc(50% - 2rem);
+}
+
+/* Die gleichen Stilregeln für den Textabsatz in den Einführungsdetails (doppelter Eintrag?) */
+.intro-details > .intro-paragraph {
+    width: 76%;
+}
+
+/* Stilregeln für die Liste der Fähigkeitsbalken */
+.skill-bars {
+    list-style: none;
+    padding: 0;
+    margin: 90px 0 0;
+}
+
+/* Stilregeln für jeden einzelnen Fähigkeitsbalken */
+.skill-bars li {
+    height: .3rem;
+    background: #a1a1a1;
+    width: 100%;
+    margin-bottom: 4rem;
+    padding: 0;
     position: relative;
 }
 
-.heading h1::after {
-    content: "";
+/* Stilregeln für die Fähigkeitsbezeichnung im Fähigkeitsbalken */
+.skill-bars li strong {
     position: absolute;
-    width: 100%;
-    height: 4px;
+    left: 0;
+    top: -1rem;
+    font-family: "poppins-bold", sans-serif;
+    color: #252439;
+    text-transform: uppercase;
+    letter-spacing: .115rem;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 0;
+}
+
+/* Stilregeln für den Fortschrittsbalken im Fähigkeitsbalken */
+.skill-bars li .progress {
+    background: #252439;
+    position: relative;
+    height: 100%;
+}
+
+/* Stilregeln für den Fortschrittsprozentsatz im Fähigkeitsbalken */
+.skill-bars li .progress span {
+    position: absolute;
+    right: 0;
+    top: -3rem;
     display: block;
-    margin: 0 auto;
-    background-color: #4caf50;
+    font-family: "poppins-regular", sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 1;
+    background: #252439;
+    padding: .6rem .6rem;
+    border-radius: 3px;
 }
 
-.container-about-me {
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px 20px;
+/* Pseudo-Element, das den Pfeil über dem Fortschrittsprozentsatz darstellt */
+.skill-bars li .progress span::after {
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    margin-left: -5px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid #313131;
+    content: "";
 }
 
-.about {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+/* Stilregeln für verschiedene Fortschrittsbalken-Prozentsätze */
+.skill-bars li .percent5 {
+    width: 5%;
+}
+
+/* ... (Fortsetzung der verschiedenen Fortschrittsbalken-Prozentsätze) */
+
+/* Stilregeln für Überschriften in der 'about'-Sektion */
+.about h1, .about h2, .about h3 {
+    color: #252439;
+    font-family: "poppins-semibold", sans-serif;
+}
+
+/* Stilregeln für spezifische Überschriften */
+.about h1 {
+    font-family: serif;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Stilregeln für 'h2'-Überschriften */
+.about h2 {
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    font-size: 19px;
+}
+
+/* Stilregeln für 'h3'-Überschriften */
+.about h3 {
+    text-transform: uppercase;
+    letter-spacing: .115rem;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 0;
+}
+
+/* Stilregeln für verschiedene Absätze in der 'about'-Sektion */
+.about p {
+    color: #888888;
+    font-family: "lora-regular", serif;
+    line-height: 1.5;
     text-align: center;
 }
 
-.about-image {
-    flex: 1;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    margin-left: 33%;
+/* ... (Fortsetzung der Absatz-Stilregeln) */
 
-}
+/* Medienabfrage für Geräte mit maximaler Breite von 500px */
 
-.about-image img {
-    max-width: 100%;
-    height: 300px;
+/* Stilregeln für spezifische Klassen 'job-a' und 'student-a' */
+.job-a, .student-a {
     display: inline-block;
-    transition: 0.5s ease;
+    vertical-align: center;
+    margin-right: 20px;
 }
 
-.about-image:hover img {
-    transform: scale(1.2);
+/* Rasterlayout mit spezifischen Grid-Areas */
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "bild skills"
+    "profile skills"
 }
 
-.about-content {
-    flex: 1;
+/* ... (Fortsetzung der Rasterlayout-Stilregeln) */
 
+/* Stilregeln für die Profil-Grid-Area */
+.profile {
+    grid-area: profile;
 }
 
-.about-content p {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #677;
+/* Stilregeln für die Skills-Grid-Area */
+.skills {
+    grid-area: skills;
 }
 
-@media screen and (max-width: 768px) {
-    .heading {
-        padding: 0 20px;
-    }
+/* Stilregeln für die Bild-Grid-Area */
+.bild {
+    grid-area: bild;
+    display: flex;
+    justify-content: space-evenly;
+}
 
-    .heading h1 {
-        font-size: 36px;
-    }
+/* Stilregeln für Bilder innerhalb der 'img'-Tags */
+img {
+    width: 300px;
+    border-radius: 100%;
+}
 
-    .heading p {
-        font-size: 17px;
-        margin-bottom: 0;
-    }
-
-    .container-about-me {
-        padding: 0;
-    }
-
-    .about {
-        padding: 20px;
-        flex-direction: column;
-    }
-
-    .about-image {
-        margin-right: 0;
-        margin-bottom: 20px;
-        margin-left: 13%;
-    }
-
-    .about-content p {
-        padding: 0;
-        font-size: 16px;
-    }
-
+h2 {
+    margin-top: 40px;
 }
