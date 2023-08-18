@@ -1,6 +1,7 @@
 body {
     background-color: #12172b;
 }
+
 .nav-bar {
     padding-right: 20%;
 }
@@ -89,8 +90,9 @@ form {
         margin-top: 10%;
     }
 }
+
 @media screen and (min-width: 1920px) {
-    .title-contact{
+    .title-contact {
         font-size: 15px;
     }
 }
